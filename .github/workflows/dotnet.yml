@@ -26,8 +26,10 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: Zip the output
+      run: zip -r StupidRobot.zip ./bin/Debug/net8.0/*
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
       with:
         name: StupidRobot
-        path: ./bin/Debug/net8.0
+        path: StupidRobot.zip
