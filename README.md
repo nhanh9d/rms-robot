@@ -1,15 +1,15 @@
-* Prerequisite:
+# Prerequisite:
 - .net 8
 
-* Build:
+# Build:
 - cd .\StupidRobot\
 - dotnet build
 
-* Run:
+# Run:
 - cd .\bin\Debug\net8.0
 - dotnet .\StupidRobot.dll
 
-* Available commands: 
+# Available commands: 
 - PLACE X,Y,F
 - MOVE
 - LEFT
@@ -17,4 +17,5 @@
 - REPORT
 - EXIT (new)
 
-Have fun
+> [!TIP]
+> Have fun
