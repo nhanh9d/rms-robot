@@ -19,4 +19,7 @@
 - EXIT (new)
 
 > [!TIP]
+> If you lazy enough, you can download this [build version](https://github.com/nhanh9d/rms-robot/actions/runs/21235638091/artifacts/5214340787): 
+
+> [!TIP]
 > Have fun
