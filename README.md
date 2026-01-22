@@ -2,6 +2,7 @@
 - .net 8
 
 # Build:
+- use terminal to build (You can use visual studio if you love some UI click click instead)
 - cd .\StupidRobot\
 - dotnet build
 
